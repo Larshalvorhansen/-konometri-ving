@@ -20,7 +20,7 @@ def calculate_row_average(file_path, row_index):
         return row_average
 
 file_path = 'wage1.csv'  # Replace 'data.csv' with your CSV file path
-row_index = 5  # Specify the row index you want to calculate the average for
+row_index = 1  # Specify the row index you want to calculate the average for
 
 average = calculate_row_average(file_path, row_index)
 
