@@ -21,7 +21,8 @@ def main():
     
     # Print the data arrays
     for header, values in data_arrays.items():
-        print(header, ':', values)
+        print(header, '=', values)
 
 if __name__ == "__main__":
     main()
+
